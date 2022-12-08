@@ -2,6 +2,7 @@ html {
    background-color: grey;
 }
 
+/* navigation bar, top */
 .navigation {
    display: flex;
    justify-content: flex-end;
@@ -9,4 +10,52 @@ html {
 
 a {
    margin-right: 10px;
+}
+
+/* logo area/what kind of search */
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   height: 200px;
+}
+
+.main-text {
+   font-size: 4rem;
+   margin: 1rem 1rem 0 1rem;
+   align-items: center;
+}
+
+.sub-text {
+   font-size: 22px;
+   font-weight: bold;
+}
+
+/* form area */
+.form-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.search-bar {
+   height: 2rem;
+   width: 400px;
+   border: 1px solid black;
+   border-radius: 20px;
+}
+
+.search-btn {
+   height: 30px;
+   width: 110px;
+   margin-top: 20px;
+   border: 1px solid black;
+   border-radius: 20px;
 }
