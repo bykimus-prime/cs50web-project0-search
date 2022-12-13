@@ -37,9 +37,17 @@ a:hover {
    align-items: center;
 }
 
+.sub-text-wrapper {
+   position: relative;
+}
+
 .sub-text {
-   font-size: 22px;
+   font-size: 18px;
+   color: #4885ed;
    font-weight: bold;
+   position: absolute;
+   right: 20px;
+   bottom: -8px;
 }
 
 /* form area */
