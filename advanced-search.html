@@ -16,9 +16,27 @@
       <div class="sub-text">Advanced Search</div>
    </div>
 
-   <div class="form-wrapper">
+   <div class="horizontal-line"></div>
+   
+   <div>
+      <p>Find pages with...</p>
       <form action="https://www.google.com/search">
-         <input class="search-bar" type="text" name="q">
+         <fieldset>
+            <p>all these words:</p>
+            <input type="text" name="as_q">
+         </fieldset>
+         <fieldset>
+            <p>this exact word or phrase:</p>
+            <input type="text" name="as_epq">
+         </fieldset>
+         <fieldset>
+            <p>any of these words:</p>
+            <input type="text" name="as_oq">
+         </fieldset>
+         <fieldset>
+            <p>none of these words:</p>
+            <input type="text" name="as_eq">
+         </fieldset>
          <input class="search-btn" type="submit" value="Google Search">
       </form>
    </div>
