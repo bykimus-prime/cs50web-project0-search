@@ -8,36 +8,61 @@
 
 <body>
    <div class="navigation">
-      <a href="./index.html">Return to Main</a>
+      <div class="logo-text">
+         <span style="color: #4885ed">C</span><span style="color: #db3236">S</span><span style="color: #f4c20d">5</span><span style="color: #4885ed">0</span>
+         <span style="color: #3cba54">W</span><span style="color: #db3236">e</span><span style="color: #4885ed">b</span>
+      </div>
+      <a href="./index.html">Return to Regular Search Page</a>
    </div>
 
-   <div class="logo">
-      <div class="main-text">CS50 WEB</div>
-      <div class="sub-text">Advanced Search</div>
+   <div class="title">
+      <div class="title-text">Advanced Search</div>
    </div>
 
    <div class="horizontal-line"></div>
    
-   <div>
+   <div class="form-area">
       <p>Find pages with...</p>
       <form action="https://www.google.com/search">
          <fieldset>
-            <p>all these words:</p>
-            <input type="text" name="as_q">
+            <div class="left">
+               <p>all these words:</p>
+            </div>
+            <div class="right">
+               <input class="text-field" type="text" name="as_q">
+            </div>
          </fieldset>
          <fieldset>
-            <p>this exact word or phrase:</p>
-            <input type="text" name="as_epq">
+            <div class="left">
+               <p>this exact word or phrase:</p>
+            </div>
+            <div class="right">
+               <input class="text-field" type="text" name="as_epq">
+            </div>
          </fieldset>
          <fieldset>
-            <p>any of these words:</p>
-            <input type="text" name="as_oq">
+            <div class="left">
+               <p>any of these words:</p>
+            </div>
+            <div class="right">
+               <input class="text-field" type="text" name="as_oq">
+            </div>
          </fieldset>
          <fieldset>
-            <p>none of these words:</p>
-            <input type="text" name="as_eq">
+            <div class="left">
+               <p>none of these words:</p>
+            </div>
+            <div class="right">
+               <input class="text-field" type="text" name="as_eq">
+            </div>
          </fieldset>
-         <input class="search-btn" type="submit" value="Google Search">
+         <fieldset>
+            <div class="left">
+            </div>
+            <div class="right">
+               <input class="search-btn" type="submit" value="Advanced Search">
+            </div>
+         </fieldset>
       </form>
    </div>
 </body>
